@@ -17,6 +17,10 @@ set(OpenCV_DIR /home/jinln/installProgram/opencv-4.5.4/build)
 ```
 ./Galaxy_camera.run
 ```
+Please modify the program in the "cmakelists.txt" text
+```
+set(DH_CAM_PATH /home/jinln/installProgram/Galaxy_Linux-x86_Gige-U3_32bits-64bits_1.2.2112.9071/Galaxy_camera)
+```
 
 # 3. Building examples
 ```
@@ -40,5 +44,4 @@ make -j8
 
 # 5. Quit examples
 按q退出程序
-
 
